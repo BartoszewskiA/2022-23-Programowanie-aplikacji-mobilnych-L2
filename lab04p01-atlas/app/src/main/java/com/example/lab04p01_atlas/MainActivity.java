@@ -3,6 +3,7 @@ package com.example.lab04p01_atlas;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -36,6 +37,20 @@ public class MainActivity extends AppCompatActivity {
         opisy = getResources().getStringArray(R.array.opisy);
         nr = random.nextInt(grafiki.length);
         zaladuj(nr);
+        View.OnClickListener sluchacz = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int Id = v.getId();
+                if(Id==R.id.b_next)
+                    if(nr >= grafiki.length-1) nr=0; else nr++;
+                else
+                    if(nr<=0) nr= grafiki.length -1; else nr--;
+
+                    zaladuj(nr);
+            }
+        };
+        next.setOnClickListener(sluchacz);
+        back.setOnClickListener(sluchacz);
     }
 
     private void zaladuj(int nr) {

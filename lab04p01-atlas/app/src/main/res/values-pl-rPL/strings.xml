@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atlas zwierząt</string>
+    <string name="next">Następny</string>
+    <string name="back">Poprzedni</string>
+    <string-array name="nazwy">
+        <item>Wilk</item>
+        <item>Rekin</item>
+        <item>Lew</item>
+    </string-array>
+    <string-array name="opisy">
+        <item>Wilk to rodzaj Caninae, który obejmuje wiele istniejących gatunków, takich jak wilki, psy, kojoty i szakale złociste. Gatunki tego rodzaju wyróżniają się średnimi lub dużymi rozmiarami, masywnymi, dobrze rozwiniętymi czaszkami i uzębieniem, długimi nogami oraz stosunkowo krótkimi uszami i ogonami</item>
+        <item>Rekiny to grupa ryb spodoustych charakteryzująca się chrzęstnym szkieletem, pięcioma do siedmiu szczelin skrzelowych po bokach głowy i płetwami piersiowymi, które nie są zrośnięte z głową. Współczesne rekiny należą do kladu Selachimorpha (lub Selachii) i są siostrzaną grupą płaszczek.</item>
+        <item>Lew (Panthera leo) to duży kot z rodzaju Panthera, pochodzący z Afryki i Indii. Ma muskularne ciało z szeroką klatką piersiową, krótką, zaokrągloną głowę, okrągłe uszy i owłosioną kępkę na końcu ogona.</item>
+    </string-array>
+</resources>
