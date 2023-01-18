@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab09p01</string>
+    <string-array name="produkty">
+        <item>Produkt 01</item>
+        <item>Produkt 02</item>
+        <item>Produkt 03</item>
+        <item>Produkt 04</item>
+        <item>Produkt 05</item>
+        <item>Produkt 06</item>
+    </string-array>
+</resources>
